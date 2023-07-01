@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,800&display=swap" rel="stylesheet">
     <link
       rel="icon"
       type="image/png"
@@ -28,6 +30,7 @@
   <body>
     <main>
       <div class="container">
+        <span id="error" class="error"></span>
         <section class="form-content">
           <form>
             <div class="form-row">
@@ -51,12 +54,14 @@
                 </label>
                 <input type="text" id="year" name="year" placeholder="YYYY" class="bold-input"/>
               </div>
+             
             </div>
           </form>
+         
         </section>
 
         <section class="breaklinez">
-          <div class="imgcontainer">
+          <div class="imgcontainer" type="submit">
             <img src="assets/images/icon-arrow.svg" />
           </div>
           <div class="breakline"></div>
@@ -79,8 +84,9 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">jeanmax1me</a>.
+        >. Coded by <a href="https://www.frontendmentor.io/profile/jeanmax1me">jeanmax1me</a>.
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
